@@ -32,12 +32,32 @@
     Output:
         please enter number only.
 */
-
 #include <stdio.h>
-
 int main() {
-
-    //--| YOUR CODE HERE
-
-    return 0 ;
+	int Score ;
+	printf("Enter Your Score :" ) ;
+	scanf( "%d" , &Score) ;
+	
+	if( Score>=80 ){
+	printf ( "A !" ) ; 
+	}else if( Score >=75) {
+	printf ( "B+ !" ) ;
+	}else if( Score >=70) {
+	printf ( "B !" ) ;
+	}else if( Score >=65) {
+	printf ( "C+ !" ) ;
+	}else if( Score >=60) {
+	printf ( "C !" ) ;
+	}else if( Score >=55) {
+	printf ( "D+ !" ) ;
+	}else if( Score >=50) {
+	printf ( "D !" ) ;
+	}else if( Score >=49) {
+	printf ( "F !" ) ;
+	}
+	else {
+		printf( "please enter number only." ) ;
+	}//end if
+	return 0 ;
+	
 }//end main function
