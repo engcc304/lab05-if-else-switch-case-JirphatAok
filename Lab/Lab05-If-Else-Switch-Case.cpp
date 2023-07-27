@@ -33,6 +33,7 @@
         please enter number only.
 */
 #include <stdio.h>
+
 int main() {
 	int Score ;
 	printf("Enter Your Score :" ) ;
